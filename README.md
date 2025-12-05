@@ -126,7 +126,7 @@ User → React UI
 
 AI / Web Development Enthusiast | Frontend Developer | Learner
 
-🌐 Portfolio: (Add if you have one)
+
 🔗 LinkedIn: https://www.linkedin.com/in/muzammil-ahmed-0902612a5/
 
 📍 India
@@ -134,17 +134,12 @@ AI / Web Development Enthusiast | Frontend Developer | Learner
 💡 Interests:
 
 Artificial Intelligence
-
 Web Development
-
 Cloud & Serverless Apps
-
 Modern UI/UX
-
 Full-Stack JavaScript
 
 🎯 Goal:
-
 To build impactful, intelligent, and user-friendly applications using the latest technologies in AI and Web Development.
 
 🙌 Acknowledgements
@@ -157,11 +152,7 @@ This project demonstrates how AI can simplify language translation using a clean
 It stands as a solid demonstration of my skills in:
 
 React
-
 TypeScript
-
 Serverless APIs
-
 AI integration
-
 Modern frontend architecture

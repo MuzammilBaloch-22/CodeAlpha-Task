@@ -1,73 +1,167 @@
-# Welcome to your Lovable project
+**CodeAlpha — Artificial Intelligence Internship Task
+🌐 Language Translator**
+<p align="center"> <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." width="200" /> </p>
+🏷️ Badges
+<p align="center"> <img src="https://img.shields.io/badge/TypeScript-5.8-blue?style=for-the-badge&logo=typescript" /> <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" /> <img src="https://img.shields.io/badge/TailwindCSS-3.4-teal?style=for-the-badge&logo=tailwindcss" /> <img src="https://img.shields.io/badge/Supabase-Edge_Functions-green?style=for-the-badge&logo=supabase" /> <img src="https://img.shields.io/badge/Gemini_AI-Translation-orange?style=for-the-badge&logo=google" /> <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge" /> </p>
+🚀 Live Demo
 
-## Project info
+🔗 https://languagestranslat0r.netlify.app/
 
-**URL**: https://lovable.dev/projects/d2a3be59-6156-47a2-b5d9-cc66ad05e76b
+✨ Project Description (Improved)
 
-## How can I edit this code?
+This AI-powered Language Translator is developed as part of my CodeAlpha Artificial Intelligence Internship.
 
-There are several ways of editing your application.
+It is a modern, cloud-based, serverless translation system that allows users to instantly translate text between multiple languages using the power of Google Gemini AI.
 
-**Use Lovable**
+🔥 Key Highlights
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d2a3be59-6156-47a2-b5d9-cc66ad05e76b) and start prompting.
+🌍 Supports multiple languages
 
-Changes made via Lovable will be committed automatically to this repo.
+⚡ Fast, real-time translation
 
-**Use your preferred IDE**
+🔐 API keys secured via environment variables
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🧠 Uses Gemini 2.5 Flash — ultra-fast translation model
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+☁️ Serverless backend using Supabase Edge Functions
 
-Follow these steps:
+🎨 Clean and interactive UI built with React + Tailwind + shadcn/ui
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🚀 Deployed on Netlify for smooth performance
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+This project showcases real-world AI integration, API communication, serverless functions, and modern frontend design — perfect as a professional portfolio project.
 
-# Step 3: Install the necessary dependencies.
-npm i
+📸 Screenshots
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+📝 Replace the image links with your own later. For now placeholders are added.
 
-**Edit a file directly in GitHub**
+🏠 Home Page
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🔤 Translation Interface
 
-**Use GitHub Codespaces**
+📱 Mobile View
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📂 Project Structure
+Root Directory
+│── package.json
+│── vite.config.ts
+│── tsconfig.json
+│── tailwind.config.ts
+│── components.json
+│── index.html
+│── README.md
+│── eslint.config.js
+│── postcss.config.js
+│── .env (required)
+│
+├── /src
+│   ├── main.tsx
+│   ├── App.tsx
+│   ├── App.css
+│   ├── index.css
+│   │
+│   ├── /components
+│   ├── /pages
+│   ├── /integrations/supabase
+│   ├── /lib
+│   └── /hooks
+│
+├── /supabase
+│   ├── config.toml
+│   └── /functions/translate
+│
+└── /public
 
-## What technologies are used for this project?
+🖥️ Tech Stack Highlights
+Frontend
 
-This project is built with:
+React 18
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+TypeScript
 
-## How can I deploy this project?
+Vite
 
-Simply open [Lovable](https://lovable.dev/projects/d2a3be59-6156-47a2-b5d9-cc66ad05e76b) and click on Share -> Publish.
+Tailwind CSS
 
-## Can I connect a custom domain to my Lovable project?
+shadcn/ui
 
-Yes, you can!
+Radix UI
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+React Hook Form + Zod
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+TanStack React Query
+
+Backend
+
+Supabase Edge Functions
+
+Deno Runtime
+
+Google Gemini API
+
+Deployment
+
+Netlify (Frontend)
+
+Supabase (Backend)
+
+🔐 Environment Variables
+Frontend (.env):
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_PUBLISHABLE_KEY=your_anon_key
+
+Backend (Supabase Dashboard):
+GEMINI_API_KEY=your_gemini_api_key
+
+🔄 How It Works (Flowchart)
+User → React UI
+     → Supabase Client
+         → Edge Function (Deno)
+             → Gemini AI API
+         ← Translated Text
+← Display in UI
+
+🧑‍💻 About Me
+👤 Muzammil Ahmed
+
+AI / Web Development Enthusiast | Frontend Developer | Learner
+
+🌐 Portfolio: (Add if you have one)
+🔗 LinkedIn: https://www.linkedin.com/in/muzammil-ahmed-0902612a5/
+
+📍 India
+
+💡 Interests:
+
+Artificial Intelligence
+
+Web Development
+
+Cloud & Serverless Apps
+
+Modern UI/UX
+
+Full-Stack JavaScript
+
+🎯 Goal:
+
+To build impactful, intelligent, and user-friendly applications using the latest technologies in AI and Web Development.
+
+🙌 Acknowledgements
+
+Special thanks to CodeAlpha for providing this internship opportunity and allowing me to explore AI-based real-world projects.
+
+🏁 Conclusion
+
+This project demonstrates how AI can simplify language translation using a clean UI and a powerful serverless backend.
+It stands as a solid demonstration of my skills in:
+
+React
+
+TypeScript
+
+Serverless APIs
+
+AI integration
+
+Modern frontend architecture
